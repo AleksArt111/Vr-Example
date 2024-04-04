@@ -1,0 +1,34 @@
+{
+    "name": "XrControllerInput",
+    "maps": [
+        {
+            "name": "Menu",
+            "id": "86634762-6d4c-417d-a7cc-9e7b8e44c15f",
+            "actions": [
+                {
+                    "name": "Hold",
+                    "type": "Button",
+                    "id": "d85e247f-9464-4094-a8d0-90bfe9fb98dc",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "77dcbb41-4c8d-46a0-a2aa-fc9d2f54d608",
+                    "path": "<XRController>{LeftHand}/{SecondaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Hold",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

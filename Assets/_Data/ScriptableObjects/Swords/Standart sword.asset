@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8711cac37f5a7ca4fbe453c98c8a23eb, type: 3}
+  m_Name: Standart sword
+  m_EditorClassIdentifier: 
+  _swordName: Standart sword
+  _swordDescription: 'You can get this sword for free '
+  _swordSFX: {fileID: 9057354491249611044, guid: eb5bd28c7d9aeae4a95f3743aea201d1, type: 3}
+  _swordDamage: 10

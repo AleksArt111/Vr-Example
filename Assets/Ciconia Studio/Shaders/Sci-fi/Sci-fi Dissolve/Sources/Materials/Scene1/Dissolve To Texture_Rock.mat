@@ -1,0 +1,177 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Dissolve To Texture_Rock
+  m_Shader: {fileID: 4800000, guid: a4e26768884ec924787c3beb74e2037d, type: 3}
+  m_ShaderKeywords: _NORMALMAP
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AmbientOcclusionmap2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 7d2300f9bde2cd14a883e171d3134375, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Burnanim:
+        m_Texture: {fileID: 2800000, guid: d544c5d8d8f2e204cbf611243d25bb47, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Burnefect:
+        m_Texture: {fileID: 2800000, guid: d544c5d8d8f2e204cbf611243d25bb47, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 2800000, guid: 819068a64549ce64cb949726d4a8a092, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 2800000, guid: 8c38d2e72ca280f4783343ec9c4418f7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 2800000, guid: a238a81b2b4259047a5706781e4e0822, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _Diffuse:
+        m_Texture: {fileID: 2800000, guid: 9150bd3380502f34ab80b339de9bf3d9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Dissolve:
+        m_Texture: {fileID: 2800000, guid: 8c38d2e72ca280f4783343ec9c4418f7, type: 3}
+        m_Scale: {x: 5, y: 5}
+        m_Offset: {x: 0, y: 0}
+    - _Distortionmap:
+        m_Texture: {fileID: 2800000, guid: d544c5d8d8f2e204cbf611243d25bb47, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 2800000, guid: 6a985dfcd1d3ca94e9753748ed65c697, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap2:
+        m_Texture: {fileID: 2800000, guid: 6a985dfcd1d3ca94e9753748ed65c697, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 9150bd3380502f34ab80b339de9bf3d9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 2800000, guid: a3b69e2ca014b394886545c581929bba, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularmapGlossA2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _TexAssetMAsk:
+        m_Texture: {fileID: 2800000, guid: 8c38d2e72ca280f4783343ec9c4418f7, type: 3}
+        m_Scale: {x: 3, y: 3}
+        m_Offset: {x: 0, y: 0}
+    - _node_2130:
+        m_Texture: {fileID: 2800000, guid: 6a985dfcd1d3ca94e9753748ed65c697, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_3936:
+        m_Texture: {fileID: 2800000, guid: 8c38d2e72ca280f4783343ec9c4418f7, type: 3}
+        m_Scale: {x: 5, y: 5}
+        m_Offset: {x: 0, y: 0}
+    - _node_5562:
+        m_Texture: {fileID: 2800000, guid: 8c38d2e72ca280f4783343ec9c4418f7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Ambientlight: 0
+    - _Ambientlight2: 0
+    - _AoIntensity: 1
+    - _AoIntensity2: 1
+    - _BumpScale: 1
+    - _BurnIntensity: 0.23
+    - _Contrast: 9.4
+    - _Contrast_copy: 1.91
+    - _Cutoff: 0.5
+    - _DesaturateAlbedo: 0
+    - _DesaturateAlbedo2: 0
+    - _DetailNormalMapScale: 1
+    - _DissolveAmount: 1
+    - _DissolveAmout: 0.976
+    - _DissolveIntensity: 0.353
+    - _DissolveSlider: 0.694
+    - _DistortionAmount: 0.5
+    - _DstBlend: 0
+    - _EdgeIntensity: 0.3
+    - _EmissiveIntensity: 1
+    - _EmissiveIntensity2: 1
+    - _FresnelStrength: 0
+    - _Glossiness: 0.865
+    - _Glossiness2: 0.414
+    - _Invertmask: 0
+    - _LightDistortionAmount: 0.01
+    - _LightDistortionIntensity: 4
+    - _LightDistortionSpeed: 0.21
+    - _LightDistortionmultiplicator: 43
+    - _LightRimDistortion: 0
+    - _Lightedgespeed: 0.094
+    - _MaskAmount: 3.96
+    - _Metallic: 0
+    - _Mode: 0
+    - _Multiplicator: 1
+    - _NormalBlend: 0
+    - _NormalIntensity: 1
+    - _NormalIntensity2: 0.834
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _Pixelize: 0.1
+    - _Pixelizemultiplicator: 4
+    - _SpecularIntensity: 0.588
+    - _SpecularIntensity2: 0.2
+    - _Speed: 0.114
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    - _node_1279: 0
+    - _node_2155: 0.572
+    - _node_2671: 0.287
+    - _node_3272: 0.03
+    - _node_7975: 0.36
+    - _node_8213: 10
+    - _node_8352: 6
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color2: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorPixelate: {r: 1, g: 1, b: 1, a: 1}
+    - _Disolvecolor: {r: 1, g: 0.09558821, b: 0.09558821, a: 1}
+    - _Dissolveburn: {r: 1, g: 0.1882353, b: 0, a: 1}
+    - _Dissolvecolor: {r: 1, g: 0.62941176, b: 0.07352942, a: 1}
+    - _EdgeColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor2: {r: 0, g: 0, b: 0, a: 1}
+    - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecColor2: {r: 1, g: 1, b: 1, a: 1}
+    - _node_1002: {r: 0.7058823, g: 0.18166089, b: 0.18166089, a: 1}
